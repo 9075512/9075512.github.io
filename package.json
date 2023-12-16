@@ -1,0 +1,35 @@
+{
+	"name": "webtools",
+	"version": "1.0.0",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs"
+	},
+	"dependencies": {
+		"@giscus/vue": "^2.3.0",
+		"@splinetool/runtime": "^0.9.480",
+		"@vitepress-demo-preview/component": "^2.3.2",
+		"@vitepress-demo-preview/plugin": "^1.2.2",
+		"animate.css": "^4.1.1",
+		"gitalk": "^1.8.0",
+		"lottie-web": "^5.12.2",
+		"nprogress": "^0.2.0",
+		"sass": "^1.58.3",
+		"typeit": "^8.7.1",
+		"vitepress": "^1.0.0-rc.20"
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"vitepress-sidebar": "^1.18.0",
+		"vitepress-theme-demoblock": "^3.0.3"
+	}
+}
