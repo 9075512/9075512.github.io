@@ -16,6 +16,7 @@ export default defineConfig({
   lastUpdated: true, // 显示页面最后更新时间
   cleanUrls: "without-subfolders", // 删除路径中的.html后缀
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  outDir:'../public',
   markdown: {
     theme: {
       light: "vitesse-light",
